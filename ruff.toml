@@ -1,0 +1,53 @@
+line-length = 120
+
+[lint]
+select = [
+    "B",    # flake8-bugbear
+    "E",    # pycodestyle
+    "W",
+    "F",    # Pyflakes
+    "SIM",  # flake8-simplify
+    "UP",   # pyupgrade
+    "W292", # newline at end of file
+    "N",    # PEP8 naming
+    "D",    # pydocstyle
+    "ANN",  # annotation
+    "BLE",  # blind-except
+    "A",    # flake8-builtins
+    "ICN",  # import-convention
+    "T20",  # print statement
+    "G",    # logging format
+    "Q",    # flake8-quotes
+    "RET",  # flake8-return
+    "SIM",  # flake8-simplify
+    "ARG",  # flake8-unused-arguments
+    "FIX",  # flake8-fixme
+    "ERA",  # flake8-eradicate
+    "PERF", # perflint
+    "E501", # line to long
+    "COM818", # trailing comma on bare tuple
+    "COM819", # trailing comma prohibited
+    "I",
+]
+
+ignore = [
+    "ANN101",
+    "ANN102",
+    "BLE001",
+    "FIX002",
+    "D100",
+    "D401",
+    "D417",
+    "D104",
+    "D203",
+    "D213",
+    "D401",
+    "FIX001",
+    "ANN401",
+    "PERF203",
+]
+
+[format]
+quote-style = "double"
+docstring-code-line-length = 80
+skip-magic-trailing-comma = true
