@@ -8,7 +8,7 @@ version = "0.0.1"
 description = "A multi-camera calibration system using ChArUco boards to align and transform camera views into a top-down perspective"
 keywords = ["multi-camera", "calibration", "charuco", "opencv", "top-down", "computer vision", "robotics"]
 readme = "README.md"
-license = "MIT"
+license = { file = "LICENSE" }
 authors = [{ name = "Lars Knol", email = "hello@headtrixz.dev" }]
 maintainers = [{ name = "Lars Knol", email = "hello@headtrixz.dev" }]
 classifiers = [
