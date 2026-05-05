@@ -6,6 +6,10 @@
 [![Contribute][badge-contribute]][link-repo]
 </div>
 
+> [!WARNING]
+> **This project is no longer maintained and has been archived.**  
+> It has been replaced by [ChArUcal](https://github.com/HeadTriXz/charucal), which offers performance improvements of over 100×.
+
 The multi-camera calibration module is designed to calibrate multiple cameras and generate the transformation matrices required to create a top-down view of a scene. By leveraging OpenCV and ChArUco boards, this module ensures precise stitching of images and enables accurate distance measurements.
 
 Originally developed for the Hanze team’s participation in the [Self Driving Challenge 2024][link-sdc], this project has since been generalized for broader applications.
